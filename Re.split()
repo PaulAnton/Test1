@@ -1,0 +1,6 @@
+import re
+value=re.split("[.,]",input())
+n=len(value)
+for i in range(0,n):
+    if value[i].isdigit():
+        print(value[i])
